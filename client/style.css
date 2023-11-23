@@ -1,0 +1,49 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.theme-1 .square-1 {
+  background: #f7d7c4;
+}
+.theme-1 .square-2 {
+  background: #9c7248;
+}
+.theme-2 .square-1 {
+  background: #9c7248;
+}
+.theme-2 .square-2 {
+  background: #f7d7c4;
+}
+
+.square {
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  flex-shrink: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.square-2 {
+  transition: all 0.01s ease-in-out;
+}
+
+#details {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
