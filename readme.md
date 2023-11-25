@@ -11,7 +11,8 @@ How to run this experiment locally:
 `node server/server.js`
 4. In the second terminal:
 `cd client && http-server`
-5. Open `localhost:8080`
+5. Open `localhost:8080?b=1` in one tab, and
+6. Open `localhost:8080?b=2` in another tab
 
 
 ## Future ideas
