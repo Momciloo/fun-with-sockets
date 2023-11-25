@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start-server": "node server/server.js",
+    "start-client": "cd client http-server",
+    "start": "npm run start-server & npm run start-client"
+  },
   "dependencies": {
+    "http-server": "^14.1.1",
     "ws": "^8.14.2"
   }
 }
