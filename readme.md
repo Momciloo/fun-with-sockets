@@ -11,3 +11,9 @@ How to run this experiment locally:
 `node server/server.js`
 4. In the second terminal:
 `cd client && http-server`
+5. Open `localhost:8080`
+
+
+## Future ideas
+1. I plan to add a flag to run this in localStorage mode only
+2. I plan to add an option for an infinity number of windows and remove the need for the query in the URL
