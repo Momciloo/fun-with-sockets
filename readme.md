@@ -18,3 +18,4 @@ How to run this experiment locally:
 ## Future ideas
 1. I plan to add a flag to run this in localStorage mode only
 2. I plan to add an option for an infinity number of windows and remove the need for the query in the URL
+3. Move to WebRTC
